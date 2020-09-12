@@ -16,6 +16,7 @@ define('HTTP_OPENCART', $protocol . $_SERVER['HTTP_HOST'] . rtrim(rtrim(dirname(
 
 // DIR
 define('DIR_OPENCART', str_replace('\\', '/', realpath(dirname(__FILE__) . '/../') . '/'));
+define('DIR_EXTENSION', DIR_OPENCART . 'extension/');
 define('DIR_APPLICATION', DIR_OPENCART . 'install/');
 define('DIR_SYSTEM', DIR_OPENCART . 'system/');
 define('DIR_IMAGE', DIR_OPENCART . 'image/');
